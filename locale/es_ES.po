@@ -1,0 +1,12 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:party.party:"
+msgid "Party name should be stripped!"
+msgstr "No se permiten espacios antes y/o despues del nombre"
+
+msgctxt "error:party.party:"
+msgid "Party name \"%s\" already exists!"
+msgstr "Existe un tercero con el mismo nombre \"%s\""
+
