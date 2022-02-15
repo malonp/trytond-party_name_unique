@@ -3,6 +3,10 @@ msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "error:party.party:"
+msgid "Party name is empty!"
+msgstr "Debe introducir un nombre para este tercero"
+
+msgctxt "error:party.party:"
 msgid "Party name should be stripped!"
 msgstr "No se permiten espacios antes y/o despues del nombre"
 
