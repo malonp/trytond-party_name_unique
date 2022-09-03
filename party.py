@@ -29,7 +29,7 @@ class Party(metaclass=PoolMeta):
     def strip_name(self):
         # Warn on existing name and constraint non stripped names
         if self.id > 0:
-            if self.name is None:
+            if self.name is None or not self.name:
                 self.raise_user_error("Party name is empty!")
             elif not (self.name == self.name.strip()):
                 self.raise_user_error("Party name should be stripped!")
